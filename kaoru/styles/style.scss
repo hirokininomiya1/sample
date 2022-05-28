@@ -1,0 +1,10 @@
+@import 'breakpoints/base';
+
+
+@media (minwidth:600px){
+  @import 'breakpoints/600up';
+}
+
+@media (minwidth:1280px){
+  @import 'breakpoints/1280up';
+}
