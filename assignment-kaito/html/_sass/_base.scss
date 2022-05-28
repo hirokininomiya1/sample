@@ -1,0 +1,12 @@
+$key-color01: #897962;
+$key-color02: #0D3453;
+$base-color:#fff;
+
+
+
+@media screen and (max-width: 479px) {
+.show_sm{display: block;}//show_sm
+}
+@media screen and (min-width: 480px){
+.show_sm{display: none;}//show_sm
+}//query

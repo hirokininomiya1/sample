@@ -1,0 +1,205 @@
+
+/*
+lozad animations
+*/
+
+.lozad{
+  opacity: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+
+  }
+  to {
+    opacity: 1;
+
+  }
+}/*fade*/
+
+.fadeUp {
+  animation-name: fadeUp;
+  animation-duration: 1s;
+}
+
+@keyframes fadeUp {
+  from {
+    position: relative;
+    top:20px;
+    opacity: 0;
+
+  }
+  to {
+    position: relative;
+    top:0px;
+    opacity: 1;
+
+  }
+}/*fadeUp*/
+
+.fadeUpAbs {
+  animation-name: fadeUpAbs;
+  animation-duration: 1s;
+}
+
+@keyframes fadeUpAbs {
+  from {
+    position: absolute;
+    top:30px;
+    opacity: 0;
+
+  }
+  to {
+    position: absolute;
+    top:0px;
+    opacity: 1;
+
+  }
+}/*fadeUpAbs*/
+
+.fadeUpAbsToCenter {
+  animation-name: fadeUpAbsToCenter;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeUpAbsToCenter {
+  from {
+    position: absolute;
+    top:55%;
+    opacity: 0;
+
+  }
+  to {
+    position: absolute;
+    top:50%px;
+    opacity: 1;
+
+  }
+}/*fadeUpAbs*/
+
+.fadeDown {
+  animation-name: fadeDown;
+  animation-duration: 1s;
+}
+
+@keyframes fadeDown {
+  from {
+    position: relative;
+    top:-20px;
+    opacity: 0;
+
+  }
+  to {
+    position: relative;
+    top:0px;
+    opacity: 1;
+
+  }
+}/*fadeDown*/
+
+.fadeDownAbs {
+  animation-name: fadeDownAbs;
+  animation-duration: 1s;
+}
+
+@keyframes fadeDownAbs {
+  from {
+    position: absolute;
+    top:-30px;
+    opacity: 0;
+
+  }
+  to {
+    position: absolute;
+    top:0px;
+    opacity: 1;
+
+  }
+}/*fadeDownAbs*/
+
+.fadeLeftAbs {
+  animation-name: fadeLeftAbs;
+  animation-duration: 1s;
+}
+
+@keyframes fadeLeftAbs {
+  from {
+    position: absolute;
+    right:-30px;
+    opacity: 0;
+
+  }
+  to {
+    position: absolute;
+    right:0px;
+    opacity: 1;
+
+  }
+}/*fadeLeftAbs*/
+
+.fadeLeft {
+  animation-name: fadeLeft;
+  animation-duration: 1s;
+}
+
+@keyframes fadeLeft {
+  from {
+    position: relative;
+    right:-30px;
+    opacity: 0;
+
+  }
+  to {
+    position: relative;
+    right:0px;
+    opacity: 1;
+
+  }
+}/*fadeLeft*/
+
+
+.fadeRight {
+  animation-name: fadeRight;
+  animation-duration: 1s;
+}
+
+@keyframes fadeRight {
+  from {
+    position: relative;
+    left:-30px;
+    opacity: 0;
+
+  }
+  to {
+    position: relative;
+    left:0px;
+    opacity: 1;
+
+  }
+}/*fadeRight*/
+
+.fadeRightAbs {
+  animation-name: fadeRightAbs;
+  animation-duration: 1s;
+}
+
+@keyframes fadeRightAbs {
+  from {
+    position: absolute;
+    left:-30px;
+    opacity: 0;
+
+  }
+  to {
+    position: absolute;
+    left:0px;
+    opacity: 1;
+
+  }
+}/*fadeRightAbs*/

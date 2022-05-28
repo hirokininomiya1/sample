@@ -1,0 +1,19 @@
+.headerArea{
+	width:100%;
+	background-color: #fff;
+	height:120px;
+	position: relative;
+}//headerArea
+
+
+@media screen and (max-width: 479px) {
+	.headerArea{height:90px;}
+
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	.headerArea{height:90px;}
+}
+@media screen and (min-width: 769px){
+}
+
+

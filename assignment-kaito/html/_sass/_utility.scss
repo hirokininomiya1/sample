@@ -1,0 +1,425 @@
+.u-table__rowSolid{	
+	border-top: rgba(45,42,33,0.23) solid 1px;
+}//u-table__rowSolid
+.u-table__columSolid{	
+	border-left: rgba(45,42,33,0.23) solid 1px;
+	padding-left: 4%;
+}//u-table__rowSolid
+.u-contentList__padding{
+	padding-top: 4%;
+}
+.u-contentUl__paddingTop{
+	padding-top: 2%;
+}
+.u-contentUl__paddingBottom{
+	padding-bottom: 2%;
+}
+.u-table__smallTitleTop{
+	padding-top: 1.3%;
+}//u-table__smallTitleTop
+.u-table__smallTitleMiddle{
+	padding-top: 2.7%;
+}//u-table__smallTitleMiddle
+.u-table__smallTitleBottom{
+	padding-top: 2.6%;
+}//u-table__smallTitleBottom
+.u-bottomArrow{
+	display: inline-block;
+  	width: 10px;
+  	height: 10px;
+  	border-bottom: 2px solid #918068;
+  	border-right: 2px solid #918068;
+  	transform: rotate(45deg);
+}//u-arrow
+.u-navRightSolid{
+	border-right: 1px solid #000;
+}//u-navRightSolid
+.u-pageTopBtn{
+	display: block;
+	width: 90px;
+	height: 90px;
+	background-color: #1E0E0C;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}//u-pageTopBtn
+.u-topArrow{
+	width: 15px;
+    height: 15px;
+    border-top: 3.5px solid #fff;
+    border-left: 3.5px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+}//u-topArrow
+
+
+/////メディアクエリ/////
+
+@media screen and (max-width: 479px) {
+	.u-display__sp{
+		display: block;
+	}//u-display__sp
+	.u-display{
+		display: none;
+	}//u-display
+	.u-displayFlex{
+		display: none;
+	}//u-displayFlex
+	.u-display__br{
+		display: inline;
+	}//u-display__br
+	.u-display__brTab{
+		display: none;
+	}//u-display__brTab
+
+	////header////
+	.p-header__leftLogo{
+		width: 212px;
+		top: 25px;
+	}//p-header__leftLogo
+	.sp_menu__logo{
+		width: 212px;
+		top: 25px;
+	}//sp_menu__logo
+	.p-mainVisual{
+		background-image: url("../img/sp_mainVisual.jpg");
+	}//p-mainVisual
+	.p-mainVisual__text__sp{
+		display: block;
+		width: 38%;
+		margin: 0 auto;
+    	padding: 12%;
+	}//p-mainVisual__text__sp
+	.p-mainVisual__text{
+		display: none;
+	}//p-mainVisual__text
+
+	////middleTop////
+	.p-middleTop__text{
+		padding-top: 8%;
+		p{
+			font-size: 15px;
+    		line-height: 33px;
+		}//p-middleTop__text p
+	}//p-middleTop__text
+	.c-titleBox{
+		width: 45%;
+		box-shadow: 8px 8px 0px 0 #e6e6e6;
+	}
+	.c-titleBox__title{
+		font-size: 18px;
+	}//c-titleBox__title
+	.p-middleTop__companyName{
+		text-align: center;
+    	font-size: 17px;
+    	width: 90%;
+		margin: 0 auto;
+	}//p-middleTop__companyName
+
+	////table/////
+	td,th{
+		display: block;
+	}
+	.p-middleTop__table{
+		border-top: rgba(45,42,33,0.23) solid 1px;
+		border-bottom: rgba(45,42,33,0.23) solid 1px;
+	}
+	.p-table__title{
+		width: auto;
+	}
+	.p-table__content {
+	    padding-bottom: 3%;
+	    padding-left: 5%;
+	    padding-top: 2%;
+	    font-size: 15px;
+	}//p-table__content
+	.u-lineHeight{
+		line-height: 40px;
+	}
+	.p-table__smallTitle{
+		width: auto;
+		padding-bottom: 0;
+	}
+	.p-table__smallContent{
+		padding-left: 8%;
+	    font-size: 14px;
+	    line-height: 30px;
+	    width: 90%;
+	}
+	.u-sp__padding{
+		padding-top: 3%;
+	}
+	.u-table__columSolid{
+		border-left: none;
+	}//u-table__columSolid
+	.u-table__rowSolid{	
+		border-top: none;
+	}//u-table__rowSolid
+
+	////table/////
+
+	.p-middleTop__downloadBtn{
+		width: 90%;
+    	height: 28px;
+    	span{
+    		font-size: 13px;
+    	}//span
+	}//p-middleTop__downloadBtn
+
+
+	.p-middleBottom__contentsMenu{
+		flex-direction: column;
+		align-items: center;
+		padding-top: 10%;
+    	padding-bottom: 7%;
+	}//p-middleBottom__contentsMenu
+	.p-middleBottom__menuTitle{
+    	height: 90px;
+    	margin-bottom: 3%;
+    	width: 90%;
+	}//p-middleBottom__menuTitle
+	.p-contentsTitle {
+	    font-size: 25px;
+	}//p-contentsTitle
+	.p-contentsTitle__hiragana {
+	    font-size: 20px;
+	}//p-contentsTitle__hiragana
+	.p-contentsSubTitle{
+		font-size: 11px;
+	}//p-contentsSubTitle
+	.u-display__span{
+		display: none;
+	}//u-display__span
+
+	.p-contentsElement{
+		flex-direction: column;
+    	align-items: center;
+	}//p-contentsElement
+	.u-contentsContainer__sp {
+	    width: 100%;
+	}//u-contentsContainer__sp
+	.p-contentsContainerIndex{
+		padding-top: 5%;
+		font-size: 20px;
+	}//p-contentsContainerIndex
+	.p-contentsContainerText{
+		padding-bottom: 10%;
+	}//p-contentsContainerText
+
+	.p-bottomNav{
+		padding-top: 40%;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 320px;
+	    line-height: 1.7;
+	    box-sizing: border-box;
+	}//p-bottomNav
+	.p-bottomNav__menu{
+		font-size: 15px;
+	}//p-bottomNav__menu
+	.u-pageTopBtn{
+		right: 38%;
+    	bottom: 95px;
+	}//u-pageTopBtn
+	.u-borderNone__sp{
+		border-right: none;
+	}//u-borderNone__sp	
+
+	.l-footerContainer {
+    	width: 100%;
+    }//l-footerContainer
+    .p-footer__companyName{
+    	font-size: 20px;
+    	padding-top: 8%;
+    }//p-footer__companyName
+    .p-footer__companyAddress{
+    	width: 70%;
+    	margin: 0 auto;
+    	line-height: 20px;
+    	padding-bottom: 2%;
+    	font-size: 12px;
+    }//p-footer__companyAddress
+    .p-footer__companyTell{
+    	padding-bottom: 10%;
+    	font-size: 12px;
+    }//p-footer__companyTell
+
+
+
+}//media
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	.u-display__sp{
+		display: block;
+	}//u-display__sp
+	.u-display{
+		display: none;
+	}//u-display
+	.u-displayFlex{
+		display: none;
+	}//u-displayFlex
+	.u-display__br{
+		display: inline;
+	}//u-display__br
+	.u-display__brTab{
+		display: inline;
+	}//u-display__brTab
+	.u-display__span{
+		display: none;
+	}//u-display__span
+
+	////header////
+	.p-header__leftLogo{
+		width: 212px;
+		top: 25px;
+	}//p-header__leftLogo
+	.sp_menu__logo{
+		width: 212px;
+		top: 25px;
+	}//sp_menu__logo
+	.p-spMainVisual__text{
+		width: 38%;
+	}//p-spMainVisual__text
+	.p-mainVisual__text__sp{
+		display: none;
+	}//p-mainVisual__text__sp
+	.p-mainVisual__text{
+		display: block;
+	}//p-mainVisual__text
+	
+	////middleTop////
+	.p-middleTop__text{
+		padding-top: 8%;
+		p{
+			font-size: 16px;
+		}
+	}//p-middleTop__text
+	.c-titleBox__title{
+		font-size: 20px;
+		letter-spacing: 3px;
+	}//c-titleBox__title
+
+	.p-middleTop__companyName{
+		width: 90%;
+		margin: 0 auto;
+	}//p-middleTop__companyName
+	.p-middleTop__downloadBtn{
+		width: 411px;
+	}//p-middleTop__downloadBtn
+
+	////table/////
+	td,th{
+		display: block;
+	}
+	.p-middleTop__table{
+		border-top: rgba(45,42,33,0.23) solid 1px;
+		border-bottom: rgba(45,42,33,0.23) solid 1px;
+	}
+	.p-table__title{
+		width: auto;
+	}
+	.p-table__content {
+	    padding-bottom: 3%;
+	    padding-left: 5%;
+	    padding-top: 2%;
+	}
+	.u-lineHeight{
+		line-height: 40px;
+	}
+	.p-table__smallTitle{
+		width: auto;
+		padding-bottom: 0;
+	}
+	.p-table__smallContent{
+		padding-left: 8%;
+	    font-size: 14px;
+	    line-height: 30px;
+	    width: 90%;
+	}
+	.u-sp__padding{
+		padding-top: 3%;
+	}
+	.u-table__columSolid{
+		border-left: none;
+	}//u-table__columSolid
+	.u-table__rowSolid{	
+		border-top: none;
+	}//u-table__rowSolid
+
+	////table/////
+
+	.p-middleTop__downloadBtn{
+    	span{
+    		font-size: 14px;
+    	}//span
+	}//p-middleTop__downloadBtn
+	.p-middleBottom__menuText{
+		font-size: 13px;
+	}//p-middleBottom__menuText
+	.p-arrow{
+		bottom: 12px;
+	}//p-arrow
+
+	.p-contentsElement{
+		flex-direction: column;
+    	align-items: center;
+	}//p-contentsElement
+	.u-contentsContainer__sp {
+	    width: 100%;
+	}//u-contentsContainer__sp
+	.p-contentsContainerIndex{
+		padding-top: 5%;
+		font-size: 23px;
+	}//p-contentsContainerIndex
+	.p-contentsContainerText{
+		padding-bottom: 10%;
+	}//p-contentsContainerText
+	.p-bottomNav{
+		padding-top: 40%;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 352px;
+		line-height: 1.7;
+	}//p-bottomNav
+	.p-bottomNav__menu{
+		font-size: 15px;
+	}//p-bottomNav__menu
+	.u-borderNone__sp{
+		border-right: none;
+	}//u-borderNone__sp	
+	.p-footer__companyName{
+		font-size: 19px;
+	}//p-footer__companyName
+	
+
+}//media
+
+@media screen and (min-width: 769px){
+	.u-display__sp{
+		display: none;
+	}//u-display__sp
+	.u-display{
+		display: block;
+	}//u-display
+	.u-display__br{
+		display: none;
+	}//u-display__br
+	.u-display__brTab{
+		display: none;
+	}//u-display__brTab
+
+	.p-mainVisual__text__sp{
+		display: none;
+	}//p-mainVisual__text__sp
+	.p-mainVisual__text{
+		display: block;
+	}//p-mainVisual__text
+	.p-middleTop__companyOverview{
+		width: 95%;
+		margin: 0 auto;
+	}//p-middleTop__companyOverview
+
+}//media

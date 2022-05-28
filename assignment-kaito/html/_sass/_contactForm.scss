@@ -1,0 +1,91 @@
+@import "base";
+
+.contactForm{
+  padding:40px 0;  
+  font-size: 85%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 70%;
+   		&__Left{
+   			width:40%;
+   		}//__Left
+   		&__Right{
+   			width:50%;   			
+   		}//__Right   
+  		.require{
+  			display: inline-block;
+  			padding:4px 8px;
+  			font-size: 80%;
+  			font-weight: bold;
+  			color: #fff;
+  			background-color: #000;
+  			border-radius: 4px;
+  		}//requir
+  		.dblWrapper{
+  			width:100%;
+  			font-size: 90%;
+  			padding-bottom:15px;
+			}//dblWrapper
+  }//contactForm
+
+div.contactFormArea input,div.contactFormArea textarea{
+  margin-top:5px;
+ 	border:0;
+	padding:10px 10px;
+	color:#666;
+	border:solid 1px #ccc;
+	-webkit-border-radius: 3px;
+	font-family:Arial, sans-serif;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width:80%;
+	font-size: 100%;
+	box-sizing:border-box;
+}
+
+div.contactFormArea input[type="text"],div.contactFormArea input[type="tel"],
+div.contactFormArea input[type="email"], div.contactFormArea textarea{
+  background-color: #FAFAFA;
+  width: 100%;
+}
+input::placeholder,textarea::placeholder{
+  color:#ccc;
+}
+
+.submitArea{
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 12%;
+  box-sizing:border-box;
+  width:100%;
+  .submit_button{
+  background-color: #000;
+  color:white!important;
+  cursor: pointer;
+  width:200px!important;
+  height:50px;
+  display: inline-block;
+  	&:hover{
+  	background-color: gray;
+		}//:hover
+	}//submit_button
+}//submitArea
+
+// .wpcf7-response-output{
+// 	display: none;
+// }
+
+@media screen and (max-width: 700px){
+	.contactForm{
+		display: block;
+		width: 85%;
+		&__Left{
+   			width:100%;
+   		}//__Left
+   		&__Right{
+   			width:100%;   			
+   		}//__Right
+	}//contactForm
+}//クエリ閉じ

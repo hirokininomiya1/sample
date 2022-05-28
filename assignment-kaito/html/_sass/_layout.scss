@@ -1,0 +1,51 @@
+.l-container{
+	width: 100%;
+	max-width: 1124px;
+	margin: 0 auto;
+	position: relative;	
+}//container
+
+.l-middleTop{
+	width: 100%;
+	background-color: #fff;
+}//l-middleTop
+
+.l-middleTop__container{
+	max-width: 930px;
+	margin: 0 auto;
+	position: relative;
+}//l-middleTop__container
+
+.l-middleBottom{
+	width: 100%;
+	background-color: #F1F1F1;
+	position: relative;
+}//l-middleBottom
+
+.l-middleBottom__container{
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: "ヒラギノ角ゴ Pro";
+}//l-middleBottom__container
+
+.l-public__Box{
+	width: 100%;
+	position: relative;
+}//l-public__Box
+.l-public__container{
+	max-width: 900px;	
+	margin: 0 auto;
+}//l-public__container
+
+
+.l-footer{
+	width: 100%;
+	background-color: #413D3C;
+}//l-footer
+.l-footerContainer{
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}//l-footerContainer
+
